@@ -1,0 +1,98 @@
+.customer {
+  width: 100%;
+  background: url('../images/case_img1.jpg') center center no-repeat;
+  padding: 52px 0 17px 0;
+}
+.customer .current {
+  font-size: 16px;
+  color: #999999;
+}
+.customer .line {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.customer .line .red {
+  display: block;
+  background: #e5000c;
+  width: 187px;
+  height: 2px;
+}
+.customer .line {
+  margin-top: 16px;
+  background: #d6d6d6;
+  width: 100%;
+  height: 2px;
+}
+.customerImg {
+  width: 100%;
+}
+.customerImg a {
+  text-decoration: none;
+}
+.customerImg .customerSwiper {
+  padding-bottom: 90px;
+}
+.customerImg .websizeImg {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.customerImg .swiper-button-prev {
+  left: 28%;
+  background: 0;
+  top: 97%;
+  background: url('../images/case_arrow1_26.jpg') center center no-repeat;
+  width: 54px;
+  height: 37px;
+}
+.customerImg .swiper-button-next {
+  right: 28%;
+  width: 54px;
+  height: 37px;
+  background: 0;
+  top: 97%;
+  background: url('../images/case_arrow2_26.jpg') center center no-repeat;
+}
+.customerImg .swiper-pagination-bullet {
+  font-size: 14px;
+  color: #000;
+  width: 20px;
+  height: 20px;
+  background: 0;
+}
+.customerImg .swiper-container-horizontal > .swiper-pagination-bullets {
+  top: 96%;
+  text-overflow: ellipsis;
+  margin-left: 30%;
+  width: 40%;
+}
+.customerImg .swiper-pagination-bullet-active {
+  background: #e5000c;
+  color: #ffff;
+}
+.websizeImg dl {
+  margin-top: 45px;
+  text-align: center;
+}
+.websizeImg dl dd p:nth-child(1) {
+  font-size: 16px;
+  color: #000000;
+}
+.websizeImg dl dd p:nth-child(2) {
+  margin-top: 14px;
+  font-size: 14px;
+  color: #999999;
+}
+@media (max-width: 639px) {
+  .customerImg .swiper-button-next {
+    width: 30px;
+    height: 15px;
+    top: 98%;
+  }
+  .customerImg .swiper-button-prev {
+    width: 30px;
+    height: 15px;
+    top: 98%;
+  }
+}

@@ -1,0 +1,153 @@
+.customer{
+    width: 100%;
+    padding:40px 0 40px 0;
+}
+.customer .current{
+    font-size: 16px;
+    color: #999999;
+}
+.customer .line{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.customer .line .red{
+    display: block;
+    background: #e5000c;
+    width: 187px;
+    height: 2px;
+}
+.customer .line{
+    margin-top: 16px;
+    background: #d6d6d6;
+    width: 100%;
+    height: 2px;
+}
+//新闻动态按钮
+.newsList{
+    margin-top: 22px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.newsBtn{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.newsBtn button{
+    border: 0;
+    background: 0;
+    width: 15%;
+    border: 1px solid #eeeeee;
+    line-height: 28px;
+    border-radius: 10px;
+}
+.newsBtn .fixed{
+    color: #ffffff;
+    background: #e5000c;
+}
+//注意事项
+.attention{
+    width: 100%;
+}
+.attention dl dt h5{
+    width: 88px;
+    height: 55px;
+    font-size: 38px;
+    color: #aaaaaa;
+    font-weight: bold;
+    background: #eeeeee;
+    text-align: center;
+    line-height: 55px;
+    border-radius: 8px 8px 0 0;
+}
+.attention dl dt p{
+    text-align: center;
+    width: 88px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #ffffff;
+    background: #cccccc;
+    border-radius: 0 0 8px 8px;
+}
+.attention dl{
+    cursor: pointer;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #eeeeee;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.attention dl dd h6{
+    font-size: 16px;
+    color: #333333;
+}
+.attention dl dd{
+    margin-left: 30px;
+}
+.attention dl dd p{
+    margin-top: 16px;
+    font-size: 14px;
+    color: #99999999;
+}
+.attention dl:hover dt h5{
+    background: #e5000c;
+    color: #ffffff;
+}
+.attention dl:hover dt p{
+    background: #a90009;
+}
+.attention dl:hover dd h6{
+    color: #e5000c;
+}
+.attention .newslistS{
+    padding-bottom: 30px;
+}
+.attention .swiper-pagination-bullet{
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    border-radius: 0;
+    line-height: 24px;
+    background: #e7e7e7;
+    color: #666666;
+    opacity: 1;
+}
+.attention .swiper-pagination-bullet-active{
+    color: #ffffff;
+    background: #e5000c;
+}
+@media (max-width:727px){
+    .attention dl dd h6{
+        font-size: 14px;
+    }
+    .attention dl dd p{
+        font-size: 12px;
+        margin-top: 6px;
+    }
+   .newsBtn{
+        width: 100%;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .customer .newsBtn button{
+        margin-bottom: 10px;
+        width: 30%;
+    }
+}
+@media (max-width:500px){
+   .newsBtn{
+        width: 100%;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .customer .newsBtn button{
+        width: 60%;
+    }
+}

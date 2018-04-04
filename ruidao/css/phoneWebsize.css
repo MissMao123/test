@@ -1,0 +1,116 @@
+.allWebsize {
+  width: 100%;
+  border-bottom: 1px solid #f1f1f1;
+}
+.allWebsize .websizeBtn {
+  width: 50%;
+  margin-left: 25%;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.websizeBtn button {
+  line-height: 28px;
+  padding: 10px 24px;
+  margin-top: 22px;
+  text-align: center;
+  border: 0;
+  background: 0;
+  color: #333333;
+  font-size: 14px;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+}
+.websizeBtn .fixed {
+  color: #ffff;
+  background: #e5000c;
+}
+.title {
+  padding: 50px 0 76px 0;
+  width: 100%;
+  text-align: center;
+}
+.title h1 {
+  font-size: 48px;
+  color: #484848;
+  font-weight: bold;
+}
+.title p {
+  line-height: 22px;
+  margin-top: 22px;
+  font-size: 18px;
+  color: #818181;
+}
+@media (max-width: 768px) {
+  .title h1 {
+    font-size: 30px;
+    color: #484848;
+    font-weight: bold;
+  }
+  .title p {
+    line-height: 22px;
+    margin-top: 22px;
+    font-size: 14px;
+    color: #818181;
+  }
+}
+.font1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+.font2 {
+  font-size: 14px;
+  color: #666;
+}
+.phone {
+  width: 100%;
+}
+.phone .phoneOne {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 66px 0;
+  justify-content: space-around;
+}
+.phone .phoneOne dt {
+  width: 30%;
+}
+.phone .phoneOne dt img {
+  width: 100%;
+}
+.phone .phoneOne dd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.phone .phoneOne dd h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+.phone .phoneOne dd p {
+  font-size: 14px;
+  color: #666;
+}
+@media (max-width: 1272px) {
+  .phone .phoneOne dd h3 {
+    font-size: 16px;
+  }
+  .phone .phoneOne dd p {
+    font-size: 12px;
+  }
+  .phone .phoneOne dt {
+    width: 36%;
+  }
+}
+.phone .line {
+  display: block;
+  width: 80%;
+  margin-left: 10%;
+  height: 1px;
+  background: #f2f2f2;
+}

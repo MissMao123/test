@@ -1,0 +1,455 @@
+//按钮
+.allWebsize{
+    width: 100%;
+    border-bottom: 1px solid #f1f1f1;
+}
+.allWebsize .websizeBtn{
+    width: 50%;
+    margin-left: 25%;
+    padding-bottom:20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.websizeBtn button{
+    line-height: 28px;
+    padding: 10px 24px;
+    margin-top: 22px;
+    text-align: center;
+    border: 0;
+    background: 0;
+    color: #333333;
+    font-size: 14px;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+}
+.websizeBtn .fixed{
+    color: #ffff;
+    background:#e5000c;
+}
+//公共标题
+ .head1C{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.h2C{
+    font-size: 24px ;
+}
+.spanC{
+    display: block;
+}
+.line1C{
+    width: 50px;
+    height: 3px;
+    background: #000000;
+    margin-top: 8px;
+}
+.line2C{
+    width: 270px;
+    height: 1px;
+    background: #d6d6d6;
+}
+.pC{
+    font-size: 14px;
+    color: #666666;
+    margin-top: 22px;
+}
+.font1{
+    font-size: 16px;
+    color: #000;
+}
+.font2{
+    font-size: 14px;
+    color: #333333;
+}
+.span1{
+    display: block;
+    color: #fff;
+    background: #e5000c;
+    font-size: 12px;
+    width: 18px;
+    line-height: 18px;
+    height: 18px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+//什么是SEO
+.program{
+    width: 100%;
+    padding: 50px 0 60px 0;
+}
+.program .head{
+    .head1C
+}
+.program .head h2{
+    .h2C
+}
+.program .head span{
+    .spanC
+}
+.program .head .line1{
+    .line1C
+}
+.program .head .line2{
+   .line2C
+}
+.program .head p{
+   .pC
+}
+.program .programSwiper{
+    padding-right: 1px;
+    padding-top: 44px;
+    padding-bottom:30px;
+}
+.program .we1{
+    padding: 50px 30px;
+    border: 1px solid #e6e6e6;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+}
+.program .we1 .webBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 122px;
+    height: 122px;
+    border: 1px solid #e6e6e6;
+    border-radius: 50%;
+}
+.program .we1 .webBox .img1{
+    position: absolute;
+    opacity: 1;
+
+}
+.program .we1 .webBox .img2{
+    position: absolute;
+    opacity: 0;
+
+}
+.program .we1 h4{
+    color: #333333;
+    font-size: 18px;
+    margin-top: 30px;
+    }
+.program .we1 p{
+    margin-top: 18px;
+    text-align: center;
+    font-size: 14px;
+    color: #888888;
+}
+.program .weSlide:hover .webBox .img1{
+    opacity: 0;
+}
+.program .weSlide:hover .webBox .img2{
+    opacity: 1;
+}
+.program .weSlide:hover .we1{
+    transform: translate(0px,-10px);
+    -ms-transform: translate(0px,-10px);       /* IE 9 */
+    -webkit-transform: translate(0px,-10px);   /* Safari and Chrome */
+    -o-transform: translate(0px,-10px);        /* Opera */
+    -moz-transform: translate(0px,-10px);      /* Firefox */
+    border:1px solid #e5000c;
+}
+.program .weSlide:hover .webBox{
+    border:1px solid #e5000c;
+}
+.program .weSlide:hover .we1 h4{
+    color: #e5000c;
+}
+.program .weSlide:hover .we1 p{
+    color: #e5000c;
+}
+.program .swiper-pagination{
+    display: none;
+}
+//小程序结束
+//小程序大应用
+.bigApply{
+    width: 100%;
+    background: #f6f6f6;
+    padding: 45px 0 50px 0;
+}
+.bigApply .head{
+    .head1C
+}
+.bigApply .head h2{
+    .h2C
+}
+.bigApply .head span{
+    .spanC
+}
+.bigApply .head .line1{
+    .line1C
+}
+.bigApply .head .line2{
+   .line2C
+}
+.bigApply .head p{
+   .pC
+}
+.bigApply .apply{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 44px;
+}
+.bigApply dl {
+    width: 30%;
+    background: #fff;
+    margin-bottom: 45px;
+}
+.bigApply dl dt img{
+    width:  100%;
+}
+.bigApply dl dd p:first-child{
+    font-size: 16px;
+    color: #333333;
+}
+.bigApply dl dd p{
+    margin-left: 20px;
+    line-height: 38px;
+}
+.bigApply dl dd p:last-child{
+    font-size: 18px;
+    color: #333333;
+}
+@media  (max-width:639px){
+   .bigApply dl {
+    width: 100%;
+}
+}
+.bigApply .moreB{
+    display: flex;
+    justify-content: center;
+}
+.bigApply .more{
+    text-align: left;
+    border: 0;
+    background: 0;
+    width: 263px;
+    height: 46px;
+    padding-left: 28px;
+    border: 1px solid #e61520;
+    border-radius: 20px;
+    background: url('../images/index_waistbuttom1.png')right 24px center no-repeat;
+}
+//小程序大应用结束
+//三种主流注册模式
+.pattern{
+    width: 100%;
+    padding: 45px 0;
+}
+.pattern .head{
+    .head1C
+}
+.pattern .head h2{
+    .h2C
+}
+.pattern .head span{
+    .spanC
+}
+.pattern .head .line1{
+    .line1C
+}
+.pattern .head .line2{
+   .line2C
+}
+.pattern .head p{
+   .pC
+}
+.pattern .patternSwiper{
+    margin-top: 45px;
+    padding-bottom: 30px;
+}
+.pattern .patternSwiper dl{
+     display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.pattern .patternSwiper dl dt{
+    width: 216px;
+    height: 216px;
+    border: 1px solid #d1d1d1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.pattern .patternSwiper dl dt img:first-child{
+    position: absolute;
+    opacity: 1;
+    }
+    .pattern .patternSwiper dl dt img:last-child{
+    position: absolute;
+    opacity: 0;
+    }
+.pattern .patternSwiper dl dd h5{
+    text-align: center;
+    font-size: 18px;
+    color: #333333;
+    margin-top: 30px;
+    margin-bottom: 14px;
+}
+.pattern .patternSwiper dl dd p{
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+}
+.pattern .patternSwiper .patternSlide:hover dl dt{
+    border: 1px solid #e5000c;
+
+}
+.pattern .patternSwiper .patternSlide:hover dl dd h5{
+        color: #e5000c;
+    }
+.pattern .patternSlide:hover dl dt img:first-child{
+        opacity: 0;
+    }
+    .pattern .patternSlide:hover dl dt img:last-child{
+        opacity: 1;
+    }
+.pattern .moreB{
+    display: flex;
+    justify-content: center;
+}
+.pattern .more{
+    text-align: left;
+    border: 0;
+    background: 0;
+    width: 263px;
+    height: 46px;
+    padding-left: 28px;
+    border: 1px solid #e61520;
+    border-radius: 20px;
+    background: url('../images/index_waistbuttom1.png')right 24px center no-repeat;
+}
+.pattern .swiper-pagination{
+    display: none;
+}
+//三种主流注册模式结束
+// 如何使用小程序
+.use{
+    width: 100%;
+    padding: 45px 0;
+    background: #333333;
+}
+.use .head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.use .head h2 {
+  font-size: 24px ;
+  color: #ffffff;
+}
+.use .head span {
+  display: block;
+}
+.use .head .line1 {
+  width: 50px;
+  height: 3px;
+  background: #ffffff;
+  margin-top: 8px;
+}
+.use .head .line2 {
+  width: 270px;
+  height: 1px;
+  background: #ffffff;
+}
+.use .head p {
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: 22px;
+}
+.use .img{
+    margin-top: 44px;
+}
+.use .img img{
+    width: 100%;
+}
+// 如何使用小程序结束
+// 提升用户对品牌认知增加品牌形象
+.promote{
+    width: 100%;
+    padding: 45px 0;
+}
+.promote .head{
+    .head1C
+}
+.promote .head h2{
+    .h2C
+}
+.promote .head span{
+    .spanC
+}
+.promote .head .line1{
+    .line1C
+}
+.promote .head .line2{
+   .line2C
+}
+.promote .head p{
+   .pC
+}
+.promoteList{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.promoteList dl dt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 136px;
+    height: 136px;
+    border: 1px solid #cfcfcf;
+    border-radius: 50%;
+}
+.promoteList dl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10%;
+    margin-top: 44px;
+}
+.promoteList dl dd{
+    text-align: center;
+}
+.promoteList dl dd h5{
+    margin-top: 26px;
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 14px;
+    }
+    .promoteList dl dd p{
+    font-size: 14px;
+    color: #666666;
+    }
+@media (max-width:1170px){
+    .promoteList dl{
+    width: 30%;
+}
+}
+@media (max-width:870px){
+    .promoteList dl{
+    width: 45%;
+}
+}
+@media (max-width:500px){
+    .promoteList dl{
+    width: 80%;
+}
+}
+
+// 提升用户对品牌认知增加品牌形象结束

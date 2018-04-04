@@ -1,0 +1,668 @@
+.allWebsize{
+    width: 100%;
+    border-bottom: 1px solid #f1f1f1;
+}
+.allWebsize .websizeBtn{
+    width: 50%;
+    margin-left: 25%;
+    padding-bottom:20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.websizeBtn button{
+    line-height: 28px;
+    padding: 10px 24px;
+    margin-top: 22px;
+    text-align: center;
+    border: 0;
+    background: 0;
+    color: #333333;
+    font-size: 14px;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+}
+.websizeBtn .fixed{
+    color: #ffff;
+    background:#e5000c;
+}
+.title{
+    padding: 50px 0 76px 0;
+    width: 100%;
+    text-align: center;
+}
+.title h1{
+    font-size: 48px;
+    color: #484848;
+    font-weight: bold;
+}
+.title p{
+    line-height: 22px;
+    margin-top: 22px;
+    font-size: 18px;
+    color: #818181;
+}
+@media(max-width: 768px){
+    .title h1{
+    font-size: 30px;
+    color: #484848;
+    font-weight: bold;
+}
+.title p{
+    line-height: 22px;
+    margin-top: 22px;
+    font-size: 14px;
+    color: #818181;
+}
+}
+// 全网营销内容
+.markingContent{
+    padding: 45px 0 50px 0;
+    background: #f2f2f2;
+
+}
+.markingContent .head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.markingContent .head h2{
+    font-size: 24px ;
+}
+.markingContent .head span{
+    display: block;
+}
+.markingContent .head .line1{
+    width: 50px;
+    height: 3px;
+    background: #000000;
+    margin-top: 8px;
+}
+.markingContent .head .line2{
+    width: 270px;
+    height: 1px;
+    background: #d6d6d6;
+}
+.markingContent .head p{
+    font-size: 14px;
+    color: #666666;
+    margin-top: 22px;
+}
+//合作关系
+.relative{
+    width: 100%;
+    margin-top: 44px;
+    border: 1px solid #e2e2e2;
+}
+.relative .row{
+    margin-right: 0;
+    margin-left:0;
+}
+.relative li{
+    cursor: pointer;
+    height:68px;
+    border-bottom: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+}
+.relative ul .fixed{
+    border-top: 2px solid #e5000c;
+
+}
+.relative li:last-child{
+    border-bottom: 0;
+    border-right: 0;
+}
+.relative .col-md-2{
+    padding-right: 0;
+    padding-left: 0;
+}
+.relative li p:nth-child(1){
+    margin-top: 18px;
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+}
+.relative li p:nth-child(2){
+    text-align: center;
+    font-size: 12px;
+    color: #999999;
+}
+
+.relativeDetails dl{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.relativeDetails dl dt{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   width: 20%;
+   line-height: 30px;
+}
+.relativeDetails dl .line{
+    width: 1px;
+    height: 120px;
+    background: #e2e2e2;
+}
+.relativeDetails dl dd{
+    padding: 60px 92px;
+    width: 80%;
+}
+.relativeDetails dl dt h3{
+    color: #e5000c;
+    font-size: 24px;
+}
+.relativeDetails dl dt p{
+    color: #666666;
+    font-size: 14px;
+}
+.relativeDetails dl dd .img1{
+    display: flex;
+    justify-content: space-around;
+}
+.relativeDetails dl dd .img2{
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-around;
+}
+//十大理由
+.reason{
+    width: 100%;
+    padding: 50px 0;
+}
+.reason .head{
+ .markingContent .head;
+
+}
+.reason .head h2{
+    font-size: 24px;
+}
+.reason .head span{
+    display: block;
+}
+.reason .head .line1{
+    .markingContent .head .line1;
+}
+.reason .head .line2{
+    .markingContent .head .line2;
+}
+.reason .head p{
+    font-size: 14px;
+    color: #666666;
+    margin-top: 22px;
+}
+.reason ul{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.reason li{
+    transition: all .6s;
+    height: 250px;
+    margin-bottom: 40px;
+    width: 20%;
+    padding: 0 15px;
+}
+.reason li .imageBox{
+    border: 1px solid #eeeeee;
+    padding: 16px 0;
+}
+.reason li .imageBox .img{
+    width: 86px;
+    height: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #eeeeee;
+    margin: 0 auto;
+}
+.reason li .imageBox .img img:first-child{
+    position: absolute;
+    opacity: 1;
+}
+.reason li .imageBox .img img:last-child{
+    position: absolute;
+    opacity: 0;
+}
+.reason .reasons li:hover .img img:first-child{
+    position: absolute;
+    opacity: 0;
+}
+.reason .reasons li:hover .img img:last-child{
+    position: absolute;
+    opacity: 1;
+}
+.reason .reasons li:hover .img{
+    border: 0;
+}
+
+.reason li .p1{
+    margin-top: 30px;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+}
+.reason li p:last-child{
+    transition: all .5s;
+    font-size: 13px;
+    color: #666666;
+    margin-top: 30px;
+    height: 40px;
+    overflow: hidden;
+    padding:  0 10px;
+}
+
+//供应商
+.provider{
+    position: relative;
+    width: 100%;
+}
+.providerBg{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 3;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.providerBg h4{
+    font-size: 48px;
+}
+.providerBg p{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 34px;
+}
+.provider img{
+    width: 100%;
+    height: 100%;
+}
+
+//易站通案例
+.someCase{
+    padding: 50px 0;
+    width: 100%;
+}
+.someCase .head{
+ .markingContent .head;
+
+}
+.someCase .head h2{
+    font-size: 24px;
+}
+.someCase .head span{
+    display: block;
+}
+.someCase .head .line1{
+    .markingContent .head .line1;
+}
+.someCase .head .line2{
+    .markingContent .head .line2;
+}
+.someCase .head p{
+    font-size: 14px;
+    color: #666666;
+    margin-top: 22px;
+}
+.someCase h3{
+    font-size: 22px;
+    color: #333333;
+}
+.someCase .standCase{
+    margin-top: 10px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.someCase .computerD{
+    position: relative;
+    line-height: 20px;
+    .flex;
+    width: 55%;
+    padding: 40px 26px 108px 26px;
+    background: #f0f0f0;
+}
+.standSlide{
+    display: flex;
+    flex-direction: row;
+}
+
+.someCase .computerD .p1{
+    text-align: center;
+    margin-top: 24px;
+    font-size: 14px;
+    color: #333333;
+}
+.someCase .computerD .p2{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 30px;
+    color: #666666;
+}
+.someCase .number{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 42px 20px;
+    border: 1px solid #e1e1e1;
+    width: 45%;
+}
+.someCase .number .circle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 112px;
+    height: 112px;
+    background: url('../images/circle_03.jpg');
+}
+.someCase .swiper-container{
+    padding-bottom: 40px;
+}
+.standCase .swiper-pagination{
+    display: none;
+}
+.number .circle img{
+    width: 100%;
+    height: 100%;
+}
+.number .circle .p1{
+    font-size: 20px;
+    color: #ff3a00;
+    // left: 30%;
+    top: 20%;
+    position: absolute;
+}
+.number .circle .p2{
+    text-align: center;
+    font-size: 12px;
+    color: #a0a0a0;
+    left: 10%;
+    top: 50%;
+    position: absolute;
+}
+.number .circle2{
+    .someCase .number .circle;
+    background: url('../images/circle2_18.jpg');
+    margin-top: 24px;
+}
+.number .circle2 img{
+    width: 100%;
+    height: 100%;
+}
+.number .circle2 .p1{
+    .number .circle .p2;
+    top: 10%;
+    left: 35%;
+}
+.number .circle2 .p2{
+    .number .circle .p1;
+    top: 30%;
+    left: 20%;
+}
+.number .circle2 .p3{
+    .number .circle .p2;
+    top: 60%;
+    left: 25%;
+}
+.number .p4{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: #a0a0a0;
+}
+.number .p5{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 6px;
+    color: #ff3a00;
+}
+.computerD span{
+    position: absolute;
+    display: block;
+    width: 45px;
+    height: 60px;
+    background: #e5000c;
+    color: #ffffff;
+    top: 20px;
+    font-size: 14px;
+    text-align: center;
+    left: 0;
+    line-height: 26px;
+}
+.order{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 45%;
+    padding: 45px 10px 50px 8px;
+    border: 1px solid #e1e1e1;
+}
+.order .line{
+    display: block;
+    width: 1px;
+    height: 348px;
+    margin-left: 30px;
+    background: #e1e1e1;
+}
+.order .roll{
+    position: absolute;
+    top: 45px;
+    left: 10px;
+    width: 60px;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.order .box1{
+    font-size: 11px;
+    border-radius: 50%;
+    text-align: center;
+    color: #ff3a00;
+    width: 25px;
+    height: 25px;
+    background: #ffffff;
+    border: 3px solid #e1e1e1;
+    margin-top: 10px;
+}
+.order .box2{
+    .order .box1;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    margin-top: 54px;
+}
+.order .box3{
+    .order .box1;
+    width: 60px;
+    height:60px;
+    margin-top: 60px;
+}
+.order .box3{
+    line-height: 60px;
+    font-size: 17px;
+}
+.order .orderR{
+    width: 70%;
+    margin-left: 20px;
+}
+.order .orderR .one{
+    width: 75px;
+    height: 17px;
+    margin-top: 12px;
+    background: url('../images/yellow_arropw_19.jpg');
+    color: #ffff;
+    text-align: center;
+}
+.order .orderR .two{
+.order .orderR .one;
+margin-top:10px;
+margin-left: 8px;
+}
+.order .orderR .three{
+.order .orderR .one;
+    margin-top:40px;
+    margin-left: 16px;
+}
+.order .orderR .word{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #a0a0a0;
+}
+.more .circle2{
+    margin-top: 0;
+}
+.more .circle{
+    margin-top: 24px;
+}
+@media(max-width: 400px){
+    .providerBg h4{
+    font-size: 16px;
+}
+}
+@media(max-width: 320px){
+    .relativeDetails dl dd img{
+        width: 40px;
+        height: 40px;
+    }
+}
+@media(max-width: 1170px){
+    .someCase .computerD{
+       padding: 40px 10px 108px 10px;
+    }
+    .someCase .number{
+       padding: 42px 10px;
+    }
+    .reason li{
+    width: 25%;
+}
+.providerBg h4{
+    font-size: 38px;
+}
+.providerBg p{
+    font-size: 26px;
+    margin-top: 26px;
+}
+}
+@media(max-width: 970px){
+
+    .reason li{
+    width: 30%;
+}
+.providerBg h4{
+    font-size: 26px;
+}
+.providerBg p{
+    font-size: 14px;
+    margin-top: 20px;
+}
+}
+@media(max-width: 1100px){
+    .relativeDetails dl dd img{
+        width: 90px;
+        height: 90px;
+    }
+    .relative li p:nth-child(2){
+        display: none;
+    }
+}
+@media(max-width: 720px){
+    .relative li p:nth-child(1){
+        display: none;
+
+    }
+    .reason li{
+        width: 50%;
+    }
+    .relative li{
+        height: 2px ;
+        background: #e2e2e2;
+    }
+    .relativeDetails dl{
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .relativeDetails dl dt{
+        margin-top: 10px;
+        padding: 0 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    .relativeDetails dl dt h3{
+        width: 100%;
+    }
+    .relativeDetails dl dt p{
+        width: 100%;
+    }
+    .relativeDetails dl .line{
+        display: none;
+    }
+    .relativeDetails dl dd{
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .relativeDetails dl dd img{
+        width: 110px;
+        height: 110px;
+    }
+}
+@media(max-width: 600px){
+    .relativeDetails dl dd{
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .relativeDetails dl dd img{
+        width: 70px;
+        height: 70px;
+    }
+    .relativeDetails dl dt h3{
+    color: #e5000c;
+    font-size: 20px;
+}
+.relativeDetails dl dt p{
+    color: #666666;
+    font-size: 12px;
+
+}
+.reason li{
+        width: 100%;
+    }
+    .providerBg h4{
+    font-size: 20px;
+}
+.providerBg p{
+    font-size: 12px;
+    margin-top: 12px;
+}
+.providerBg p{
+    margin-top: 8px;
+    font-size: 10px;
+}
+    .relativeDetails dl dd img{
+        width: 60px;
+        height: 60px;
+    }
+}
+

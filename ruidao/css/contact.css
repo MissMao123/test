@@ -1,0 +1,183 @@
+.head1C {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.h2C {
+  font-size: 24px ;
+}
+.spanC {
+  display: block;
+}
+.line1C {
+  width: 50px;
+  height: 3px;
+  background: #000000;
+  margin-top: 8px;
+}
+.line2C {
+  width: 270px;
+  height: 1px;
+  background: #d6d6d6;
+}
+.pC {
+  font-size: 14px;
+  color: #666666;
+  margin-top: 22px;
+}
+.font1 {
+  font-size: 24px;
+  color: #333333;
+}
+.font2 {
+  font-size: 14px;
+  color: #666666;
+}
+.attentiveService {
+  width: 100%;
+  padding: 50px 0;
+}
+.attentiveService .head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.attentiveService .head h2 {
+  font-size: 24px ;
+}
+.attentiveService .head span {
+  display: block;
+}
+.attentiveService .head .line1 {
+  width: 50px;
+  height: 3px;
+  background: #000000;
+  margin-top: 8px;
+}
+.attentiveService .head .line2 {
+  width: 270px;
+  height: 1px;
+  background: #d6d6d6;
+}
+.attentiveService .head p {
+  font-size: 14px;
+  color: #666666;
+  margin-top: 22px;
+}
+.care {
+  margin-top: 62px;
+  display: flex;
+  flex-direction: row;
+}
+.care dl {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.care dl {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.care dl dt {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+.care dl dt img {
+  width: 30%;
+}
+.care dl dd {
+  text-align: center;
+}
+.care dl dd h3 {
+  font-size: 24px;
+  color: #333333;
+  margin: 10px 0;
+}
+.care dl dd p {
+  font-size: 14px;
+  color: #666666;
+}
+.callMe {
+  width: 100%;
+  background: url('../images/contact_bg.jpg');
+}
+.callMe .head {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.callMe .head h2 {
+  font-size: 24px ;
+  color: #ffffff;
+}
+.callMe .head span {
+  display: block;
+}
+.callMe .head .line1 {
+  width: 50px;
+  height: 3px;
+  background: #ffffff;
+  margin-top: 8px;
+}
+.callMe .head .line2 {
+  width: 270px;
+  height: 1px;
+  background: #ffffff;
+}
+.callMe .head p {
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: 22px;
+}
+.way dd {
+  font-size: 18px;
+  color: #ffffff;
+}
+.way {
+  margin: 104px 0 150px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.way dl {
+  width: 22%;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #131313;
+  margin-bottom: 10px;
+}
+.way dl:hover {
+  background: #b8010b;
+}
+@media (max-width: 767px) {
+  .care {
+    margin-top: 62px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .care dl {
+    width: 46%;
+  }
+  .care dl dd h3 {
+    font-size: 18px;
+  }
+  .care dl dd p {
+    font-size: 12px;
+  }
+  .way dl {
+    width: 48%;
+  }
+  .way {
+    flex-wrap: wrap;
+  }
+  .way dd {
+    font-size: 14px;
+  }
+}

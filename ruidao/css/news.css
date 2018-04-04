@@ -1,0 +1,163 @@
+.customer {
+  width: 100%;
+  padding: 40px 0 60px 0;
+}
+.customer .current {
+  font-size: 16px;
+  color: #999999;
+}
+.customer .line {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.customer .line .red {
+  display: block;
+  background: #e5000c;
+  width: 187px;
+  height: 2px;
+}
+.customer .line {
+  margin-top: 16px;
+  background: #d6d6d6;
+  width: 100%;
+  height: 2px;
+}
+.dynamic {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.dynamic .dynamicSwiper {
+  width: 54%;
+}
+.dynamic .dynamicSwiper img {
+  height: 100%;
+  width: 100%;
+}
+.dynamic .newList {
+  width: 42%;
+}
+.customer .dynamicSwiper .swiper-pagination-bullets {
+  width: 30%;
+  left: 70%;
+}
+.dynamicSwiper .swiper-slide {
+  height: 300px;
+  position: relative;
+}
+.dynamic .text {
+  padding: 40px 18px 0 18px;
+  color: #ffffff;
+  font-size: 14px;
+  z-index: 4;
+  top: 0;
+  width: 30%;
+  height: 100%;
+  position: absolute;
+  left: 70%;
+  background: rgba(0, 0, 0, 0.4);
+}
+.newList {
+  width: 100%;
+}
+.newList ul li {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 18px;
+}
+.newList ul li p:first-child {
+  width: 90%;
+  font-size: 14px;
+  color: #666666;
+}
+.newList ul li p:first-child span {
+  font-size: 14px;
+  color: #e5000c;
+  margin-right: 6px;
+}
+.newList ul li p:last-child {
+  width: 10%;
+  font-size: 12px;
+  color: #999999;
+}
+@media (max-width: 727px) {
+  .dynamic {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .dynamic .dynamicSwiper {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .dynamic .newList {
+    width: 100%;
+  }
+}
+.center {
+  background: #f6f6f6;
+  width: 100%;
+  padding: 44px 0 56px 0;
+  margin-bottom: 45px;
+}
+.center .centerWebsize {
+  margin-top: 46px;
+}
+.center .centerWebsize h4 {
+  padding-left: 12px;
+  font-size: 16px;
+  color: #333333;
+}
+.center .centerWebsize h4 i {
+  font-style: normal;
+  font-size: 10px;
+  color: #959595;
+  float: right;
+  margin-top: 6px;
+}
+.center .centerWebsize h4 i img {
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
+}
+.centerWebsize p {
+  display: flex;
+  flex-direction: row;
+  margin-top: 8px;
+}
+.centerWebsize .gray {
+  display: block;
+  height: 2px;
+  background: #d5d5d5;
+  width: 100%;
+}
+.center .centerWebsize .bg {
+  margin-top: 20px;
+  width: 100%;
+}
+.center .centerWebsize ul {
+  margin-top: 30px;
+  font-size: 12px;
+  color: #333333;
+  line-height: 26px;
+}
+.center .centerWebsize ul li {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-content: center;
+}
+.center .centerWebsize ul li p:first-child {
+  width: 80%;
+}
+.center .centerWebsize ul li p:last-child {
+  width: 6%;
+}
+.center a {
+  text-decoration: none;
+}

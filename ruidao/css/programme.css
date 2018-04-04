@@ -1,0 +1,63 @@
+.solution {
+  width: 100%;
+  padding: 52px 0 50px 0;
+}
+.solution .current {
+  font-size: 16px;
+  color: #999999;
+}
+.solution .line {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.solution .line .red {
+  display: block;
+  background: #e5000c;
+  width: 187px;
+  height: 2px;
+}
+.solution .line {
+  margin-top: 16px;
+  background: #d6d6d6;
+  width: 100%;
+  height: 2px;
+}
+.plan {
+  padding-bottom: 66px;
+  width: 100%;
+}
+.plan h2 {
+  font-size: 30px;
+  color: #e5000c;
+  text-align: center;
+}
+.plan .leader {
+  text-align: center;
+  font-size: 18px;
+  color: #999999;
+}
+.plan .allPlans {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.allPlans dl {
+  margin-top: 58px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.allPlans dl dd {
+  margin-top: 18px;
+  text-align: center;
+}
+.allPlans dl dd h3 {
+  font-size: 14px;
+  color: #333333;
+}
+.allPlans dl dd p {
+  margin-top: 14px;
+  font-size: 12px;
+  color: #999999;
+}
